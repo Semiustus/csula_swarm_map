@@ -72,6 +72,12 @@ add_executable(
 )
 
 add_executable(
+  grid_test
+  src/grid_test.cpp
+)
+
+
+add_executable(
   iterator_benchmark
   src/iterator_benchmark.cpp
 )
@@ -99,6 +105,11 @@ target_link_libraries(
 
 target_link_libraries(
   move_demo
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(
+  grid_test
   ${catkin_LIBRARIES}
 )
 
