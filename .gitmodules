@@ -1,0 +1,3 @@
+[submodule "src/grid_map"]
+	path = src/grid_map
+	url = https://github.com/ethz-asl/grid_map
