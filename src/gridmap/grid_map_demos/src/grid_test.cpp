@@ -18,7 +18,7 @@ int main(int argc, char** argv)
   // Create grid map.
   GridMap map({"density"});
   map.setFrameId("map");
-  map.setGeometry(Length(10.0, 10.0), 0.09);
+  map.setGeometry(Length(21.0, 21.0), 0.333);
   ROS_INFO("Created map with size %f x %f m (%i x %i cells).",
   map.getLength().x(), map.getLength().y(),
   map.getSize()(0), map.getSize()(1));
